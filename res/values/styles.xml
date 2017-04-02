@@ -18,6 +18,7 @@
     <style name="DialtactsTheme" parent="Theme.AppCompat.Light">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:navigationBarColor">#49B0A6</item>
 
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
         <item name="android:windowActionBarOverlay">true</item>
@@ -93,6 +94,13 @@
 
     <style name="DialerButtonTextStyle" parent="@android:style/TextAppearance.Material.Widget.Button">
         <item name="android:textColor">#fff</item>
+        <!-- Trick the support libraries into thinking this is an AppCompat theme. We don't
+             need the full thing, but we want to use CoordinatorLayout in our view hierarchy,
+             which checks for being used with an AppCompat theme on creation. -->
+        <item name="colorAccent">@color/dialtacts_theme_color</item>
+        <item name="colorPrimary">@color/hexagon_primary</item>
+        <item name="colorPrimaryDark">@color/hexagon_primary</item>
+        <item name="android:navigationBarColor">#ff49b0a6</item>
     </style>
 
     <!-- Action bar overflow menu icon. -->
@@ -109,6 +117,7 @@
 
     <style name="DialpadTheme" parent="DialtactsTheme">
         <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:navigationBarColor">#49B0A6</item>
     </style>
 
     <style name="DialtactsThemeWithoutActionBarOverlay" parent="DialtactsTheme">
@@ -213,6 +222,7 @@
         <item name="android:background">?android:attr/selectableItemBackground</item>
         <item name="android:orientation">horizontal</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:navigationBarColor">#49B0A6</item>
     </style>
 
     <style name="CallLogActionTextStyle">

@@ -87,7 +87,7 @@
     room to the search box-->
     <dimen name="action_bar_height">56dp</dimen>
     <dimen name="action_bar_height_large">64dp</dimen>
-    <dimen name="action_bar_elevation">3dp</dimen>
+    <dimen name="action_bar_elevation">0dp</dimen>
     <dimen name="tab_height">43dp</dimen>
     <!-- actionbar height + tab height -->
     <dimen name="actionbar_and_tab_height">107dp</dimen>
@@ -107,7 +107,7 @@
     <dimen name="search_box_search_icon_padding">2dp</dimen>
     <dimen name="search_box_collapsed_text_margin_left">22dp</dimen>
     <dimen name="search_list_padding_top">16dp</dimen>
-    <dimen name="search_box_elevation">3dp</dimen>
+    <dimen name="search_box_elevation">0dp</dimen>
 
     <dimen name="call_log_action_icon_margin_start">16dp</dimen>
     <dimen name="call_log_action_icon_dimen">24dp</dimen>
@@ -131,7 +131,7 @@
     <dimen name="icon_padding">8dp</dimen>
 
     <!-- Length of dialpad's shadows in dialer. -->
-    <dimen name="shadow_length">10dp</dimen>
+    <dimen name="shadow_length">0dp</dimen>
 
     <dimen name="empty_list_message_top_padding">20dp</dimen>
     <dimen name="empty_list_message_text_size">16sp</dimen>
